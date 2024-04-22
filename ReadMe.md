@@ -1,6 +1,5 @@
 # 💫 About Me:
-Hi there! I'm a 23-year-old Italian developer and UX/UI designer with a passion for creating immersive digital experiences. Currently, I'm working as a frontend React developer for the École polytechnique fédérale de Lausanne (EPFL), a research institute and university in Lausanne, Switzerland, where I'm constantly challenged to push the boundaries of what's possible in the world of web development. When I'm not working on cutting-edge projects at EPFL, I love to spend my free time creating fun and engaging video games over at strobetano.com. Whether I'm designing user interfaces or implementing complex code solutions, I'm always striving to bring my unique perspective and skill set to every project I work on. Let's collaborate and create something great together!
-
+Hi! I'm a frontend React developer and UX/UI designer based in Lausanne, Switzerland, working at École polytechnique fédérale de Lausanne (EPFL). I enjoy crafting immersive digital experiences and designing engaging video games in my free time. Check out my projects at strobetano.com. Let's create something great together!
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/wheazel#8878) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/robertobendi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/robertobendi/) 
