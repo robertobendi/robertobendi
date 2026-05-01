@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img" aria-label="Roberto Bendinelli — indie game dev and front-end craftsman, Lausanne CH">
+  <style>
+    .name {
+      font-family: 'Inter', 'Helvetica Neue', system-ui, -apple-system, sans-serif;
+      font-weight: 800;
+      font-size: 96px;
+      letter-spacing: -0.04em;
+      fill: #0d1117;
+      opacity: 0;
+      animation: fadeIn 900ms ease-out 300ms forwards;
+    }
+    .kicker {
+      font-family: ui-monospace, 'JetBrains Mono', SFMono-Regular, Menlo, monospace;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: 0.28em;
+      fill: #57606a;
+      opacity: 0;
+      animation: fadeIn 700ms ease-out 1100ms forwards;
+    }
+    .line {
+      stroke: #d0d7de;
+      stroke-width: 1.5;
+      stroke-dasharray: 1100;
+      stroke-dashoffset: 1100;
+      animation: draw 1400ms cubic-bezier(.65,.05,.36,1) 400ms forwards;
+    }
+    .dot {
+      fill: #f97316;
+      transform-origin: 1180px 240px;
+      opacity: 0;
+      animation: dotIn 500ms ease-out 1600ms forwards, pulse 2400ms ease-in-out infinite 2100ms;
+    }
+    @media (prefers-color-scheme: dark) {
+      .name   { fill: #f0f6fc; }
+      .kicker { fill: #8b949e; }
+      .line   { stroke: #30363d; }
+    }
+    @keyframes fadeIn { to { opacity: 1; } }
+    @keyframes draw   { to { stroke-dashoffset: 0; } }
+    @keyframes dotIn  { to { opacity: 1; } }
+    @keyframes pulse  { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  </style>
+
+  <line class="line" x1="80" y1="240" x2="1180" y2="240" />
+  <circle class="dot" cx="1180" cy="240" r="5" />
+  <text class="name" x="76" y="180">Roberto Bendinelli</text>
+  <text class="kicker" x="80" y="270">INDIE GAME DEV · FRONT-END CRAFTSMAN · LAUSANNE CH</text>
+</svg>
